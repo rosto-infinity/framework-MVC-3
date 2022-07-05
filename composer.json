@@ -1,0 +1,12 @@
+{
+    "name": "rosto.infinity/afphpoo4",
+    "autoload": {
+        "psr-4": {
+            "RostoInfinity\\Afphpoo4\\": "src/",
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "DataBase\\": "database"
+        }
+    },
+    "require": {}
+}
