@@ -24,7 +24,11 @@ class Router {
 
         $this->routes['GET'][] = new Route($path, $action);
     }
-
+/**
+ * Undocumented function
+ *
+ * @return void
+ */
     public function run(){
     
         foreach($this->routes[$_SERVER['REQUEST_METHOD']] as $route){
